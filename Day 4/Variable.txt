@@ -1,0 +1,22 @@
+void setup() {
+  // put your setup code here, to run once:
+  Serial.begin(9600);
+}
+
+int a = 2;
+float b = 3.4444;
+char c = 'C';
+
+
+void loop() {
+  
+  //Change variable:
+  //a = 10;
+  //Serial.println(a);
+  
+  //Error: data type is not same.
+  //c = b;
+  //Serial.println(c);  
+  
+  delay(500);
+}

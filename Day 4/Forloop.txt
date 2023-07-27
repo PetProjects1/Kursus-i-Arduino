@@ -1,0 +1,27 @@
+#define red 7
+#define blue 5
+
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(red, OUTPUT);
+  pinMode(blue, OUTPUT);
+}
+
+
+void loop() {
+  
+  for(int i = 0; i < 10; i++){
+  
+    digitalWrite(red,HIGH);
+    delay(500);
+    digitalWrite(red,LOW);
+  	delay(500);
+  }
+    
+  
+  digitalWrite(blue,HIGH);
+  delay(500);
+  digitalWrite(blue,LOW);
+  delay(500);
+
+}
